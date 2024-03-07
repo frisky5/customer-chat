@@ -1,0 +1,43 @@
+.info {
+  width: 100%;
+  position: relative;
+  align-self: center;
+}
+
+.agent {
+  align-self: center;
+  border-radius: 15px;
+  position: relative;
+  background: #147efb;
+  color: white;
+  overflow-wrap: break-word;
+  padding: 5px;
+  font-family: Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+.customer {
+  align-self: center;
+  border-radius: 15px;
+  position: relative;
+  background: #53d769;
+  color: white;
+  overflow-wrap: break-word;
+  padding: 5px;
+  font-family: Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .customer {
+    max-width: 100%;
+  }
+  .agent {
+    max-width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100%;
+}
